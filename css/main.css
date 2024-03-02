@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', 'Sans';
+
+}
+
+/* header */
+
+.site-header{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 4;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin:0 auto;
+    padding: 0 20px;
+
+}
+
+.site-menyu-wrap{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-logo-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.site-logo-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-text{
+    font-family:'Sans';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    margin-left: 16px;
+}
+
+/* list */
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.list-item{
+    font-family: 'Sans';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 2px;
+    list-style: none;
+    margin-right: 32px;
+}
+
+.list-item:nth-child(5){
+    margin-right: 0;
+}
+
+
+.list-link{
+    color: #222222;
+    text-decoration: none;
+}
+
+.list-link:nth-child(2){
+    color: #ffffff;
+}
+
+/* button */
+
+.qabulga-yozilish-btn{
+    width: 100%;
+    max-width: 193px;
+    font-family: 'Sans';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 2px;
+    border: 2px solid #DE2E54;
+    border-radius:5px ;
+    padding: 12px 24px;
+    background-color: #DE2E54;
+}
+
+.qabulga-yozilish-btn-link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.qabulga-yozilish-btn:hover{
+    background-color: #0EB4C1;
+    transition: all 0.8s ease;
+}
+
+/*  site about */
+
+.site-main{
+    /* position: relative; */
+    top: 100px;
+}
+
+.main-top-section{
+    background-color: #0EB4C1;
+}
+
+.site-about-wrap{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 130px 0;
+}
+
+.site-about{
+    width: 100%;
+    max-width: 500px;
+}
+
+.site-about-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    margin: 0 0 16px 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.site-about-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0 0 36px 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+/* .doctor-img-wrap{
+    width: 100%;
+    max-width: 423px;
+    height: 504px;
+} */
+
+.doctor-img{
+    position: absolute;
+    /* top: 1px; */
+    right: 0px;
+    bottom: 0px;
+    z-index: 3;
+}
+
+/* card */
+
+.hero-card-wrap{
+    width: 100%;
+    max-width: 864px;
+    margin: 120px auto;    
+}
+
+.hero-card{
+    width: 100%;
+    max-width: 133px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 56px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.card:nth-child(5){
+    margin-bottom: 60px;
+}
+
+.card-img{
+    max-width: 200px;
+    height: 200px;
+}
+
+.card-text-wrap{
+    margin: 25px 0 25px 64px;
+}
+
+.card-title{
+    font-family: 'Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #222222;
+}
+
+.card-text{
+    font-family: 'Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    color: #222222;
+}
+
+.card-btn{
+    width: 100%;
+    max-width: 193px;
+    margin: 0 auto;
+}
+
+/* royhatga olish */
+
+.footer-top{
+    margin-top: 120px;
+    background-color: #0EB4C1;
+}
+
+.royhatga-olish{
+    width: 100%;
+    max-width: 470px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.royhatga-olish-text{
+    font-family: 'sans';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    margin: 0 auto 40px auto;
+    color: #ffffff;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-text{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2px;
+    padding: 12px 24px;
+    background-color: #0EB4C1;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    color: #DE2E54;
+}
+
+.btn-link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.telegramdan-yozish-text{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2px;
+    padding: 12px 24px;
+    color: #ffffff;
+    background-color: #0EB4C1;
+    border: 1px solid #ffffff;
+}
+
+/* bottom */
+
+.site-bottom{
+    background-color: black;
+}
+
+.list-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    padding: 0;
+}
+
+.logo-text-bottom{
+    font-family:'Sans';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    margin-left: 16px;
+    color: #ffffff;
+}
+
+
+.list-bottom-link{
+    text-decoration: none;
+    color: #ffffff;
+}
